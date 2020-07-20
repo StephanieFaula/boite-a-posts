@@ -1,5 +1,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+### Propre à cette application
+Pour démarrer le projet: `npm start`
+Pour lancer le json serveur qui simule une fausse API `json-server --watch fillDB.js --port 3001``
+Utilisation de `casual`pour simuler de fausses données
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +85,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+

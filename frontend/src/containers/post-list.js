@@ -46,7 +46,7 @@ class PostList extends Component {
 
     filterMyPosts(postList){
         return postList.filter(post => {
-            if(post.author == "Moi"){
+            if(post.author === "Moi"){
                 return true
             }else{
                 return false
@@ -59,7 +59,7 @@ class PostList extends Component {
         return (
             <div>
                 <h1>Liste des posts</h1>
-                <label for="filtre_mes_posts">Afficher uniquement mes posts</label>
+                <label htmlFor="filtre_mes_posts">Afficher uniquement mes posts</label>
                 <input name="filtre_mes_posts" type="checkbox" onChange={(e) => {this.setState({displayOnlyMines : e.target.checked})}} />
                 <div className="button_add">
                     <Link to={'/create-post'}><button className="btn btn-primary btn-circle btn-lg">+</button></Link>

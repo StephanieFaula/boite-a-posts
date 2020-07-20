@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Router, Route, Switch, IndexRoute} from 'react-router-dom';
+import {Router, Route, Switch} from 'react-router-dom';
 import history from './history';
 import PostList from './containers/post-list';
 import PostForm from './containers/post-form';
